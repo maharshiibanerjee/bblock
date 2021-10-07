@@ -1,34 +1,3 @@
-/*--------------------------------------------------------------------------------
-
-	# Minsoon Template 1.0 - Mar 16, 2018
-	# ------------------------------------------------------------------------
-	# Designed & coded by MegaDrupal
-	# Websites:  http://www.megadrupal.com -  Email: info@megadrupal.com
-
-----------------------------------------------------------------------------------
-
-	1. base
-	2. form-item
-	3. general_header
-	4. general_service
-	5. general_hero
-	6. fss
-	7. particles.js
-	8. core_quietflow
-	9. Ribbon background
-	10. core_smoky
-	11. core_vegas
-	12. youtube
-	13. socialicon
-	14. Reset Row Boostrap
-	15. Margin Padding
-	16. CountDown
-
---------------------------------------------------------------------------------*/
-
-/* 1. base
---------------------------------------------------------------------------------*/
-
 a[disabled], input[disabled], button[disabled], textarea[disabled] {
     cursor: not-allowed !important;
     opacity: .5 !important;
@@ -265,8 +234,7 @@ a:focus {
     }
 }
 
-/* 2. form-item
---------------------------------------------------------------------------------*/
+
 
 input:not([type="button"]):not([type="submit"]):not([type="radio"]):not([type="checkbox"]):not([type="color"]),
 textarea, select {
@@ -501,8 +469,6 @@ mark, .mark {
     color: #f1f1f3;
 }
 
-/* 3. general_header
---------------------------------------------------------------------------------*/
 
 .header {
     padding: 15px 15px;
@@ -569,8 +535,6 @@ mark, .mark {
     }
 }
 
-/* 4. general_service
---------------------------------------------------------------------------------*/
 
 .service {
     text-align: center;
@@ -611,8 +575,6 @@ mark, .mark {
     }
 }
 
-/* 5. general_hero
---------------------------------------------------------------------------------*/
 
 .hero {
     position: relative;
@@ -722,9 +684,6 @@ mark, .mark {
     }
 }
 
-/* 6. fss
---------------------------------------------------------------------------------*/
-
 #fss-bg {
     position: fixed;
     left: 0;
@@ -733,9 +692,6 @@ mark, .mark {
     bottom: 0;
     z-index: -1;
 }
-
-/* 7. particles.js
---------------------------------------------------------------------------------*/
 
 #particles-js {
     position: absolute;
@@ -746,15 +702,10 @@ mark, .mark {
     z-index: 33;
 }
 
-/* 8. core_quietflow
---------------------------------------------------------------------------------*/
-
 .quietflow {
     position: fixed;
 }
 
-/* 9. Ribbon background
---------------------------------------------------------------------------------*/
 
 .ribbons-bg {
     background-color: #403060;
@@ -765,8 +716,7 @@ mark, .mark {
     background-size: cover;
 }
 
-/* 10. core_smoky
---------------------------------------------------------------------------------*/
+
 
 .smoky {
     position: fixed;
@@ -781,9 +731,6 @@ mark, .mark {
         bottom: -100px;
     }
 }
-
-/* 11. core_vegas
---------------------------------------------------------------------------------*/
 
 .vegas-container {
     position: fixed !important;
@@ -806,9 +753,6 @@ mark, .mark {
     }
 }
 
-/* 12. youtube
---------------------------------------------------------------------------------*/
-
 .youtube {
     z-index: -2;
     position: fixed;
@@ -827,9 +771,6 @@ mark, .mark {
     -o-object-position: center;
        object-position: center;
 }
-
-/* 13. socialicon
---------------------------------------------------------------------------------*/
 
 .social-icon {
     display: inline-block;
@@ -1864,9 +1805,6 @@ mark, .mark {
     float: right;
 }
 
-/* 15. Margin Padding
---------------------------------------------------------------------------------*/
-
 .pd-0 {
     padding: 0 !important;
 }
@@ -1974,9 +1912,6 @@ mark, .mark {
 .mt-75 {
     margin-top: 75px;
 }
-
-/* 16. CountDown
---------------------------------------------------------------------------------*/
 
 .countdown__module {
     display: table;
